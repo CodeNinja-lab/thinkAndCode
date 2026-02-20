@@ -89,9 +89,18 @@ const team: TeamMember[] = [
   },
   {
     name: "Maguette KA",
-    role: "Designeuse UI/UX",
-    bio: "Creative et orientee utilisateur, elle donne vie aux interfaces de tous les projets avec un sens aigu du detail.",
-    skills: ["Figma", "UI Design", "User Research"],
+    role: "Responsable Marketing & Communication",
+    bio: "Etudiante en Licence 3 Systemes Reseaux et Telecommunications a l'Ecole Superieure Polytechnique de Dakar, elle s'interesse a l'impact des technologies numeriques dans le digital et la communication. Serieuse, curieuse et motivee, elle gere le marketing et la communication chez Think & Code.",
+    skills: ["Marketing Digital", "Community Management", "Gestion de Projet", "Reseaux Cisco", "GNS3", "Telephonie IP"],
+    image: "/team/ndeye-maguette-ka.jpg",
+    education: [
+      "L3 Systemes Reseaux & Telecom — ESP Dakar (en cours)",
+      "Baccalaureat S2 — Cabis School (2023)",
+    ],
+    experience: [
+      "Responsable Marketing & Communication — Think & Code",
+      "Assistante Chef de Projet",
+    ],
   },
 ]
 
