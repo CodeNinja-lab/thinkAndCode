@@ -22,7 +22,7 @@ interface TeamMember {
 
 const team: TeamMember[] = [
   {
-    name: "Serigne Mbaye Sy AMAR",
+    name: "Mbaye  AMAR",
     role: "Fondateur & CEO",
     bio: "Ingenieur diplome de Centrale Mediterranee et de l'Ecole Centrale Casablanca. Il allie expertise technique et competences manageriales pour diriger Think & Code. Fort d'experiences internationales (VINCI Energies, Skills and Smart, IDUS Capital), il porte une vision ambitieuse pour l'innovation technologique en Afrique.",
     skills: ["Leadership", "Python", "Laravel", "DevOps/CI-CD", "Gestion de Projet", "Scrum/Agile"],
@@ -60,19 +60,35 @@ const team: TeamMember[] = [
   },
   {
     name: "Ndieye DIOP",
-    role: "Responsable Formations",
-    bio: "Pedagogique et passionnee, elle concoit les programmes de formation pour rendre le code accessible a tous.",
-    skills: ["Pedagogie", "Python", "Data Science"],
+    role: "Developpeuse Full-Stack & Responsable IA",
+    bio: "Developpeuse Full-Stack passionnee par la creation de solutions digitales modernes et performantes. Titulaire d'un Master 2 en Developpement Full-Stack (Universite Cheikh Hamidou Kane), elle combine rigueur technique, autonomie et vision entrepreneuriale. Chez Think & Code, elle gere la partie Intelligence Artificielle et developpe des produits technologiques a reel impact.",
+    skills: ["React.js", "Next.js", "Go (Golang)", "API Backend", "SQL", "Data Analysis"],
+    image: "/team/ndieye-diop.jpg",
+    github: "https://github.com/Estherdevdiop",
+    education: [
+      "Master 2 Developpement Full-Stack — Univ. Cheikh Hamidou Kane",
+    ],
+    experience: [
+      "Responsable IA — Think & Code",
+      "Developpeuse Full-Stack — Zone01 Dakar",
+    ],
   },
   {
-    name: "Mame Goumba AMAR",
-    role: "Developpeur Backend Senior",
-    bio: "Specialiste des architectures robustes et des APIs performantes, il est un pilier technique des projets Think & Code.",
-    skills: ["Spring Boot", "Node.js", "PostgreSQL"],
+    name: "Serigne AMAR",
+    role: "Responsable Formations & Dev Frontend",
+    bio: "Developpeur Full-Stack passionne par la conception de solutions numeriques efficaces et elegantes. Actuellement en Licence 3 Genie Informatique et Telecommunications a l'Ecole Polytechnique de Thies, il combine rigueur technique et creativite. Chez Think & Code, il gere les formations et le developpement frontend.",
+    skills: ["Angular", "Django", "Spring Boot", "REST API", "Algorithmique", "Architecture Logicielle"],
     image: "/team/mame-goumba-amar.jpg",
+    education: [
+      "Licence 3 Genie Informatique & Telecom — Ecole Polytechnique de Thies (en cours)",
+      "Baccalaureat S1 — Lycee de Mbacke (2023)",
+    ],
+    experience: [
+      "Responsable Formations & Dev Frontend — Think & Code",
+    ],
   },
   {
-    name: "Ndeye Maguette KA",
+    name: "Maguette KA",
     role: "Designeuse UI/UX",
     bio: "Creative et orientee utilisateur, elle donne vie aux interfaces de tous les projets avec un sens aigu du detail.",
     skills: ["Figma", "UI Design", "User Research"],
