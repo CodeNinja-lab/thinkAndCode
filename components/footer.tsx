@@ -57,6 +57,14 @@ export function Footer() {
                 <Mail className="h-4 w-4 shrink-0 text-[#F4A620]" />
                 <a href="mailto:contact@thinkandcode.sn" className="hover:text-white transition-colors">contact@thinkandcode.sn</a>
               </div>
+              <div className="flex items-center gap-2 text-sm text-white/60">
+                <Mail className="h-4 w-4 shrink-0 text-[#F4A620]" />
+                <a href="mailto:mbaye.ndiaye@think-and-code.com" className="hover:text-white transition-colors">mbaye.ndiaye@think-and-code.com</a>
+              </div>
+              <div className="flex items-center gap-2 text-sm text-white/60">
+                <Mail className="h-4 w-4 shrink-0 text-[#F4A620]" />
+                <a href="mailto:babacar.amar@think-and-code.com" className="hover:text-white transition-colors">babacar.amar@think-and-code.com</a>
+              </div>
               {phoneNumbers.map((phone) => (
                 <div key={phone.number} className="flex items-center gap-2 text-sm text-white/60">
                   <Phone className="h-4 w-4 shrink-0 text-[#F4A620]" />
