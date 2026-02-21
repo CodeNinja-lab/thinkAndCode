@@ -28,7 +28,7 @@ export function HeroSection() {
         <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2">
           <Sparkles className="h-4 w-4 text-[#F4A620]" />
           <span className="text-sm font-medium text-white">
-            Entreprise technologique senegalaise
+            Entreprise technologique
           </span>
         </div>
 
@@ -41,7 +41,7 @@ export function HeroSection() {
         </h1>
 
         <p className="mb-10 max-w-2xl text-lg leading-relaxed text-white/70 md:text-xl">
-          {"Think & Code developpe des solutions numeriques a fort impact social et economique. Formation, developpement et innovation depuis Dakar."}
+          {"Think & Code developpe des solutions numeriques a fort impact social et economique. Formation, developpement et innovation."}
         </p>
 
         <div className="flex flex-col gap-4 sm:flex-row">

@@ -13,9 +13,7 @@ const contactInfo = [
     label: "Telephone",
     values: [
       "+33 7 73 33 98 35 (WhatsApp)",
-      "78 362 95 62",
-      "76 321 14 95",
-      "78 168 17 00",
+      "+221 78 362 95 62",
     ],
   },
   {
@@ -26,7 +24,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Adresse",
-    values: ["Dakar, Senegal"],
+    values: ["Dakar, Senegal", "Paris, France"],
   },
   {
     icon: Clock,

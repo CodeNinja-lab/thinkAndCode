@@ -22,10 +22,8 @@ const footerLinks = {
 }
 
 const phoneNumbers = [
-  { number: "+33 7 73 33 98 35", label: "WhatsApp", href: "https://wa.me/33773339835", isWhatsApp: true },
-  { number: "78 362 95 62", label: "Senegal", href: "tel:+221783629562", isWhatsApp: false },
-  { number: "76 321 14 95", label: "Senegal", href: "tel:+221763211495", isWhatsApp: false },
-  { number: "78 168 17 00", label: "Senegal", href: "tel:+221781681700", isWhatsApp: false },
+  { number: "+33 7 73 33 98 35", label: "France", href: "https://wa.me/33773339835", isWhatsApp: true },
+  { number: "+221 78 362 95 62", label: "Senegal", href: "tel:+221783629562", isWhatsApp: false },
 ]
 
 export function Footer() {
@@ -48,12 +46,12 @@ export function Footer() {
               </span>
             </Link>
             <p className="mb-6 text-sm leading-relaxed text-white/60">
-              {"Des solutions numeriques a fort impact social et economique. Developpement, formation et innovation depuis Dakar, Senegal."}
+              {"Des solutions numeriques a fort impact social et economique. Developpement, formation et innovation."}
             </p>
             <div className="flex flex-col gap-3">
               <div className="flex items-center gap-2 text-sm text-white/60">
                 <MapPin className="h-4 w-4 shrink-0 text-[#F4A620]" />
-                <span>Dakar, Senegal</span>
+                <span>Dakar, Senegal — Paris, France</span>
               </div>
               <div className="flex items-center gap-2 text-sm text-white/60">
                 <Mail className="h-4 w-4 shrink-0 text-[#F4A620]" />
@@ -132,7 +130,7 @@ export function Footer() {
         {/* Bottom */}
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 md:flex-row">
           <p className="text-sm text-white/40">
-            {"2025 Think & Code. Tous droits reserves. Dakar, Senegal."}
+            {"2025 Think & Code. Tous droits reserves. Dakar — Paris."}
           </p>
           <div className="flex items-center gap-4">
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-white/40 transition-colors hover:text-[#F4A620]">
