@@ -19,7 +19,7 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    values: ["contact@thinkandcode.sn", "mbaye.ndiaye@think-and-code.com", "babacar.amar@think-and-code.com"],
+    values: ["mbaye.ndiaye@think-and-code.com", "babacar.amar@think-and-code.com"],
   },
   {
     icon: MapPin,
